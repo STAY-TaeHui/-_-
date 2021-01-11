@@ -24,14 +24,14 @@ class Solution{
             return a;
         }
         else if(a>b){
-            for(int i=a; a>=b; a--){
-                tmp=a+tmp;
+            for(int i=a; i>=b; i--){
+                tmp=i+tmp;
             }
             return tmp;
         }
         else
-            for(int i=a; a<=b; a++){
-                tmp = a + tmp;
+            for(int i=a; i<=b; i++){
+                tmp = i + tmp;
             }
             return tmp;
     }
