@@ -18,15 +18,23 @@ public class Main {
 }
     class Solution{
         public long solution(long n){
-            String s = Long.toString(n);
-            String[]  arr = s.split("");
-            //String answer="";
-            long answer;
-            Arrays.sort(arr, Collections.reverseOrder());
-            String tmp = String.join("",arr);
-            answer = Long.parseLong(tmp);
+            String s = String.valueOf(n);
+            String ansnum= "";
+            Long answer;
+            char [] arr = new char[s.length()];
+            for(int i=0; i<s.length(); i++){
+                arr[i] +=s.charAt(i);
+            }
+            Arrays.sort(arr);
+            for(int i = arr.length-1; i>=0; i--){
+                ansnum+=arr[i];
+                System.out.println(ansnum);
+            }
+            answer = Long.parseLong(ansnum);
 
-            System.out.println((answer));
+            for(int i:arr){
+                System.out.println(i);
+            }
             return answer;
 
         }
