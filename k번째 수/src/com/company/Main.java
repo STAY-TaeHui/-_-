@@ -16,7 +16,7 @@ class Solution{
     public int[] solution(int[] array, int[][] commands) {
         int i,j,k;
         int x=commands.length;
-        int[] tmp={};
+        //int[] tmp={};
         int[] answer = new int[x];
 
         for(int a=0; a<x; a++){
@@ -24,8 +24,8 @@ class Solution{
             i=commands[a][0]-1;
             j=commands[a][1]-1;
             k=commands[a][2]-1;
-
-            tmp = init_arr(i,j);//i에서 j만큼의 임시배열 생성함수 호출
+            int[] tmp = new int[j-i+1];//i~j만큼의 임시배열 생성
+            //tmp = init_arr(i,j);//i에서 j만큼의 임시배열 생성함수 호출 ------> 필요없음
 
             for(; i<=j; i++){
                 tmp[index]=array[i];//tmp임시배열에 i부터 j까지 대입
@@ -40,11 +40,11 @@ class Solution{
         }
         return answer;
     }
-    public int[] init_arr(int a, int b){//임시배열 생성 후 반환
-        int[] tmp = new int [b-a+1];
-        for(int i=0; i<tmp.length; i++){
-            tmp[i] = 0;
-        }
-        return tmp;
-    }
+//    public int[] init_arr(int a, int b){//임시배열 생성 후 반환   -------> 필요없음
+//        int[] tmp = new int [b-a+1];
+//        for(int i=0; i<tmp.length; i++){
+//            tmp[i] = 0;
+//        }
+//        return tmp;
+//    }
 }
