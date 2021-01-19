@@ -12,8 +12,21 @@ public class Main {
 }
 class Solution{
     public int[] solution (int[] arr){
-        int[] answer={};
+        int[] answer=new int [arr.length];
+        int ans_len=0;
+        int tmp=0;
 
+        for(int i=0; i<arr.length-1; i++){
+            for(int j=1; j<arr.length; j++){
+                if(arr[i]==arr[j]){
+
+                }
+            }
+        }
+
+        for(int i: answer){
+            System.out.println(i);
+        }
         return answer;
     }
 }
