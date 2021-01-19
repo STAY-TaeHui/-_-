@@ -9,7 +9,7 @@ public class Main {
         s.solution(str);
     }
 }
-class Solution{
+class Solution {
     public int solution(String s){
         int answer = 0;
         char op = s.charAt(0);
@@ -17,18 +17,18 @@ class Solution{
         switch (op) {
             case '+':
                 System.out.println("This is 양수");
-                answer = Integer.parseInt(s);
+                answer = op_delete(s);
 
                 break;
             case '-':
                 System.out.println("This is 음수");
-                answer = Integer.parseInt(s);
+                answer = op_delete(s)*-1;
                 break;
             default:
                 System.out.println("This is DEFAULT");
                 answer = Integer.parseInt(s);
         }
-        System.out.println(answer+1);
+        System.out.println(answer);
         return answer;
     }
     public int op_delete(String s){
