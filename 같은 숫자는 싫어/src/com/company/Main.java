@@ -6,10 +6,11 @@ public class Main {
 	// write your code here
         //테스트 케이스 3가지
         int[] arr = {1,1,3,3,0,1,1};
-        int[] arr2 = {4,4,4,3,3};
+        int[] arr2 = {1,0,0,0};
         int[] arr3 = {1, 1, 2, 3, 2, 3, 4};
+
         Solution S = new Solution();
-        S.solution(arr3);
+        S.solution(arr2);
     }
 }
 class Solution{
@@ -23,10 +24,10 @@ class Solution{
                     count++;            //count를 더해준다. (
                     break;              //break로 j가 메인인 for문을 빠져나옴.
                 }
-                else if(j== (arr.length-1) && i== (arr.length-2)){      //for문에 증감식이 없기떄문에 마지막 직전 인덱스를
-                                                                        //체크하기 위함.
-                    i++;                                                //i가 마지막 직전 인덱스이고, 위에서 i=j를 해주지 못했을때
-                }                                                       //강제로 i를 늘려  i가 메인인 for문을 종료시킴
+                else if(j== (arr.length-1)){      //for문에 증감식이 없기떄문에 마지막 직전 인덱스를 ------> @여기 고침@
+                                                  //체크하기 위함.
+                    i++;                          //i가 마지막 직전 인덱스이고, 위에서 i=j를 해주지 못했을때
+                }                                 //강제로 i를 늘려  i가 메인인 for문을 종료시킴
             }
         }
 
@@ -41,9 +42,9 @@ class Solution{
                 }
             }
         }
-//        for(int i:answer){
-//            System.out.print(i+" ");
-//        }
+        for(int i:answer){
+            System.out.print(i+" ");
+        }
         return answer;
     }
 }
