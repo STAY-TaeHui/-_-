@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d919c37d-46bb-4bde-872f-bf1cfbe86e08" name="디폴트 변경 목록" comment="" />
+    <list default="true" id="d919c37d-46bb-4bde-872f-bf1cfbe86e08" name="디폴트 변경 목록" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1mugFhKgfq1ipLLDpcHHyF8EAPR" />
   <component name="ProjectViewState">
@@ -16,9 +21,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="모듈" />
+    <property name="project.structure.last.edited" value="프로젝트" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -42,6 +47,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610348791528</updated>
       <workItem from="1610348792649" duration="183000" />
+      <workItem from="1613219097656" duration="89000" />
+      <workItem from="1613219207092" duration="111000" />
     </task>
     <servers />
   </component>
@@ -49,21 +56,31 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="614" y="168" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1613219109984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="614" y="168" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1613219109984" />
     <state x="440" y="94" key="#프로젝트_구조" timestamp="1610348802670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#프로젝트_구조/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610348802670" />
-    <state x="740" y="235" key="FileChooserDialogImpl" timestamp="1610348910543">
+    <state x="740" y="235" key="FileChooserDialogImpl" timestamp="1613219155180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="235" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610348910543" />
+    <state x="740" y="235" key="FileChooserDialogImpl/0.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1613219155180" />
     <state x="462" y="137" key="NewModule_or_Project.wizard" timestamp="1610348921479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="462" y="137" key="NewModule_or_Project.wizard/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610348921479" />
-    <state x="370" y="94" key="new project wizard" timestamp="1610348974151">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1613219267922">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1613219267922" />
+    <state x="370" y="94" key="new project wizard" timestamp="1613219184725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="370" y="94" key="new project wizard/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610348974151" />
+    <state x="370" y="94" key="new project wizard/0.1080.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1613219184725" />
   </component>
 </project>
